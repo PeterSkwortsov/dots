@@ -1,0 +1,368 @@
+@import "./reset.css";
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); заменить на другой шрифт */
+
+body {
+        font-family: 'Caveat', cursive;
+        font-family: 'Jost', sans-serif;
+        margin: 0 auto;
+        overflow-x:hidden;
+        background-color: #5DBDFF;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+ 
+}
+
+.container__map {
+    padding: 90px 0;
+    text-align: center;
+    background-color: white;
+   
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+
+    font-size: 18px;
+    color: #fff;
+
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #323232;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000000;
+}
+
+.vk__top {
+    position: relative;
+    left: 1196px;
+    top: 32px;
+}
+/* Круг */
+.circle {
+    transform-origin: 50% 50%;
+    position: relative;
+    left: 508px;
+    top: 42px;
+}
+
+
+.circle_text { 
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    animation: motion normal infinite 15s linear;
+    transform-origin: 50% 50%;
+    
+}
+
+@keyframes motion {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.circle:hover .circle_text {
+    animation-play-state: paused;
+    position: absolute;
+}
+
+/* Облака */
+.cloud1 {
+    position: relative;
+    width: 127.66px;
+    height: 195.13px;
+    left: 411.06px;
+    top: -305.05px;
+    transform: rotate(16deg);
+}
+
+
+
+.cloud2 {
+    position: relative;
+    width: 285.01px;
+    height: 90.13px;
+    left: -24px;
+    top: -77px;
+}
+
+
+
+.cloud3 {
+    position: relative;
+    width: 206px;
+    height: 192px;
+    left: 376px;
+    top: -148px;
+}
+
+
+.map__text {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+
+
+  
+.header-nav {
+    height: 306px;
+    /* margin-bottom: 76px; */
+}
+
+
+
+
+/* Nav */
+
+.nav-list {
+    
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    /* overflow: hidden; */
+    display: none;
+}
+
+.nav-button {
+    display: none;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link.active {
+    color: #606060;
+}
+
+/* Header content */
+
+
+
+.services {
+    padding: 90px 0;
+}
+
+.prev, .next {
+    cursor: pointer;
+    /* position: absolute; 
+    top: 50%;  */
+    width: auto;
+    margin-top: 1px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 16px;
+ 
+  }
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+
+
+
+.london__foto {
+    border-radius: 40px;
+    width: 100%;
+    margin: 0 20px 15px 0;
+}
+
+.london {
+    display: flex;
+}
+
+.london__name {
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #b00a0a;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.london__info {
+    position: relative;
+    top: 31px;
+    left: 148px;
+   
+}
+
+.london__card {
+    gap: 22px;
+    display: flex;
+    /* column-gap: inherit; */
+    /* margin-left: 30px; */
+    position: relative;
+    top: 122px;
+    left: -399px;
+}
+ 
+.london p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+}
+
+.red {
+    position: absolute;
+   
+}
+
+.legoza {
+    display: flex;
+   
+}
+
+.legoza p {
+    font-size: 18px;
+    width: 433px;
+   
+}
+
+.legoza span {
+    font-weight: bold;
+    font-size: 18px;
+}
+.legoza__text {
+   
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    color: #45B600;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 53px;
+}
+
+.slideshow-container {
+    left: 83px;
+    position: relative;
+    width: 821px;
+    margin-top: 42px;
+}
+
+.cars {
+    display: flex;
+}
+
+.cars__price h3 {
+    
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FFFF22;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 34px;
+}
+
+.cars__price h6 {
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.cars__price p {
+    font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+
+.cars__price {
+    position: relative;
+    left: 33px;
+}
+
+.cars__foto {
+    border-radius: 50px;
+}
+/* Footer */
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+}
+
+.contacts-content {
+    margin: 0 auto 40px;
+    max-width: 480px;
+    font-size: 18px;
+}
+
+.contacts-content p + p {
+    margin-top: 1em;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.contacts-footer {
+    color: #828282;
+}

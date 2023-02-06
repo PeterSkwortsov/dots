@@ -1,0 +1,665 @@
+ @media (max-width: 1230px) {
+
+	.circle {
+		transform-origin: 50% 50%;
+		position: relative;
+		left: 270px;
+		top: 60px;
+	}
+	.vk__top {
+		display: none;
+	}
+	.nav-list {
+		overflow:hidden
+	}
+
+	.nav-button {
+		display: block;
+	}
+
+	.nav.open .nav-list {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #5DBDFF;
+
+		z-index: 1;
+		padding: 46px 30px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 40px;
+
+		font-size: 34px;
+		font-weight: 600;
+	}
+
+	.nav-link {
+		color: #828282;
+	}
+
+	.nav-link.active {
+		color: #000;
+	}
+
+	.nav-button {
+		position: absolute;
+    z-index: 9;
+    top: 46px;
+    right: -328px;
+	}
+
+    .nav.open .nav-button {
+        /* position: fixed; */
+    }
+
+	.header-nav {
+		margin-bottom: 50px;
+	}
+
+	.header-row {
+		flex-direction: column;
+		row-gap: 20px;
+	}
+
+	.header-content {
+		margin-top: 0;
+	}
+
+	.header-img {
+		text-align: center;
+	}
+
+.map__acive__frame {
+
+	max-width: 80%;
+
+}
+
+.cloud1 {
+	position: relative;
+    top: -335px;
+    left: 1px;
+}
+
+.cloud2 {
+	position: relative;
+    top: -246px;
+    left: 258px;
+}
+
+.cloud3 {
+    position: relative;
+    top: -354px;
+    left: 639px;
+}
+
+.container__map {
+	width: 808px;
+}
+
+}
+
+
+/* ______________*/
+
+
+@media (max-width: 700px) {
+
+.nav-button {
+	position: absolute;
+    z-index: 9;
+    top: 57px;
+    right: -524px;
+}
+
+.circle {
+	transform-origin: 50% 50%;
+    position: relative;
+    left: 525px;
+    top: 60px;
+    width: 40%;
+}
+
+
+.container__map {
+	width: 1490px;
+}
+
+
+.cloud1 {
+	display: none;
+}
+
+.cloud2 {
+	position: relative;
+    top: -246px;
+    left: 408px;
+}
+
+.cloud3 {
+	position: relative;
+    top: -113px;
+    left: 419px;
+}
+
+.london__info {
+	position: relative;
+    left: 1px;
+    top: 38px;
+}
+
+.london__foto {
+    
+    width: 100%;
+    
+}
+
+.london {
+    width: 650px;
+    display: block;
+    text-align: center;
+    margin: 0 0 0 100px;
+    left: 187px;
+    position: relative;
+}
+
+.london__card {
+	
+    margin-top: 119px;
+    top: -27px;
+    gap: 35px;
+    left: 101px;
+    display: flex;
+}
+
+	.header-heading {
+		font-size: 34px;
+		line-height: 1.3;
+	}
+
+	.header-heading span {
+		font-size: 28px;
+	}
+
+	.services {
+		padding: 60px 0;
+	}
+
+	.portfolio {
+		padding: 60px 0;
+	}
+
+	.portfolio-title {
+		margin-bottom: 50px;
+	}
+
+	.project-img {
+		margin-bottom: 30px;
+	}
+
+	.project + .project {
+		margin-top: 55px;
+	}
+
+	.contacts {
+		padding: 60px 0;
+		width: 1481px;
+	}
+
+	.contacts-title {
+		margin-bottom: 20px;
+	}
+
+	.contacts-content {
+		margin-bottom: 20px;
+	}
+
+	.contacts-button {
+		margin-bottom: 70px;
+	}
+
+	.contacts-social {
+		column-gap: 50px;
+		margin-bottom: 20px;
+	}
+
+	.legoza {
+		display: block;
+    position: relative;
+    left: 126px;
+    width: 608px;
+	}
+
+.legoza__item {
+	position: relative;
+    left: 154px;
+}
+
+.slideshow-container {
+	left: 148px;
+    position: relative;
+    width: 984px;
+    margin-top: 42px;
+}
+
+.cars {
+	display: block;
+    left: 243px;
+    width: 733px;
+    position: relative;
+}
+
+.cars__foto {
+	width: 100%;
+    left: 5px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+} 
+@media (max-width: 426px) {
+
+	.nav-button {
+	position: absolute;
+    z-index: 9;
+    top: 47px;
+    right: -1194px;
+	}
+		
+	.circle {
+		transform-origin: 50% 50%;
+    position: relative;
+    left: 639px;
+    top: 60px;
+    width: 100%;
+	}
+		
+	.container__map {
+		width: 1702px;
+    margin-top: 110px;
+}
+	
+	
+	.cloud1 {
+		display: none;
+	}
+	
+	.cloud2 {
+		position: relative;
+		top: -246px;
+		left: 408px;
+	}
+	
+	.cloud3 {
+		position: relative;
+		top: -198px;
+		left: 919px;
+	}
+	
+	.london__info {
+		position: relative;
+		left: 1px;
+		top: 38px;
+	}
+	
+	.london__foto {
+		
+		width: 100%;
+		
+	}
+	
+	.london {
+	width: 938px;
+    display: block;
+    text-align: center;
+    margin: 0 0 0 100px;
+    left: 245px;
+    position: relative;
+	}
+	
+	.london__card {
+		
+		margin-top: 119px;
+		width: 772px;
+		top: -27px;
+		gap: 43px;
+		left: 251px;
+	}
+		
+	.services {
+		padding: 60px 0;
+	}
+	
+	.contacts {
+		padding: 60px 0;
+		width: 1706px;
+		}
+	
+	.contacts-title {
+		margin-bottom: 20px;
+		}
+	
+	.contacts-content {
+		margin-bottom: 20px;
+		}
+	
+	.contacts-button {
+		margin-bottom: 70px;
+		}
+	
+	.contacts-social {
+		column-gap: 50px;
+		margin-bottom: 20px;
+	}
+	
+	.legoza {
+		display: block;
+    position: relative;
+    left: 209px;
+	}
+	
+	.legoza__item {
+		position: relative;
+		left: 154px;
+	}
+	
+	.slideshow-container {
+		left: 148px;
+		position: relative;
+		width: 1283px;
+		margin-top: 42px;
+	}
+	
+	.cars {
+		display: block;
+    left: 360px;
+    width: 884px;
+    position: relative;
+	}
+	
+	.cars__foto {
+		width: 100%;
+		left: 5px;
+		position: relative;
+		margin-bottom: 40px;
+	}
+	
+	.cars__price {
+		position: relative;
+		left: 13px;
+	}
+	
+} 
+
+
+@media (max-width: 376px) {
+
+.nav-button {
+	position: absolute;
+    z-index: 9;
+    top: 47px;
+    right: -897px;
+}
+	
+.circle {
+	transform-origin: 50% 50%;
+    position: relative;
+    left: 575px;
+    top: 60px;
+    width: 100%;
+}
+	
+.container__map {
+	width: 1504px;
+    margin-top: 96px;
+}
+
+	
+.cloud1 {
+	display: none;
+}
+
+.cloud2 {
+	position: relative;
+	top: -246px;
+	left: 408px;
+}
+
+.cloud3 {
+	position: relative;
+	top: -198px;
+	left: 678px;
+}
+
+.london__info {
+	position: relative;
+	left: 1px;
+	top: 38px;
+}
+
+.london__foto {
+	
+	width: 100%;
+	
+}
+
+.london {
+	width: 938px;
+    display: block;
+    text-align: center;
+    margin: 0 0 0 100px;
+    left: 144px;
+    position: relative;
+}
+
+.london__card {
+	
+	margin-top: 119px;
+	width: 772px;
+	top: -27px;
+	gap: 43px;
+	left: 251px;
+}
+	
+.services {
+	padding: 60px 0;
+}
+
+.contacts {
+	padding: 60px 0;
+	width: 1513px;
+	}
+
+.contacts-title {
+	margin-bottom: 20px;
+	}
+
+.contacts-content {
+	margin-bottom: 20px;
+	}
+
+.contacts-button {
+	margin-bottom: 70px;
+	}
+
+.contacts-social {
+	column-gap: 50px;
+	margin-bottom: 20px;
+}
+
+.legoza {
+	display: block;
+    position: relative;
+    left: 91px;
+}
+
+.legoza__item {
+	position: relative;
+	left: 154px;
+}
+
+.slideshow-container {
+	left: 148px;
+	position: relative;
+	width: 1283px;
+	margin-top: 42px;
+}
+
+.cars {
+	display: block;
+    left: 245px;
+    width: 884px;
+    position: relative;
+}
+
+.cars__foto {
+	width: 100%;
+	left: 5px;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.cars__price {
+	position: relative;
+	left: 13px;
+}
+
+} 
+	
+
+@media (max-width: 320px) {
+
+	.nav-button {
+		position: absolute;
+		z-index: 9;
+		top: 47px;
+		right: -897px;
+	}
+		
+	.circle {
+		transform-origin: 50% 50%;
+		position: relative;
+		left: 498px;
+		top: 60px;
+		width: 100%;
+	}
+		
+	.container__map {
+		width: 1278px;
+	}
+	
+		
+	.cloud1 {
+		display: none;
+	}
+	
+	.cloud2 {
+		position: relative;
+		top: -246px;
+		left: 408px;
+	}
+	
+	.cloud3 {
+		position: relative;
+		top: -198px;
+		left: 678px;
+	}
+	
+	.london__info {
+		position: relative;
+		left: 1px;
+		top: 38px;
+	}
+	
+	.london__foto {
+		
+		width: 100%;
+		
+	}
+	
+	.london {
+		width: 938px;
+		display: block;
+		text-align: center;
+		margin: 0 0 0 100px;
+		left: 27px;
+		position: relative;
+	}
+	
+	.london__card {
+		
+		margin-top: 119px;
+		width: 772px;
+		top: -27px;
+		gap: 43px;
+		left: 251px;
+	}
+		
+	.services {
+		padding: 60px 0;
+	}
+	
+	.contacts {
+		padding: 60px 0;
+		width: 1282px;
+		}
+	
+	.contacts-title {
+		margin-bottom: 20px;
+		}
+	
+	.contacts-content {
+		margin-bottom: 20px;
+		}
+	
+	.contacts-button {
+		margin-bottom: 70px;
+		}
+	
+	.contacts-social {
+		column-gap: 50px;
+		margin-bottom: 20px;
+	}
+	
+	.legoza {
+		display: block;
+		position: relative;
+		left: 1px;
+	}
+	
+	.legoza__item {
+		position: relative;
+		left: 154px;
+	}
+	
+	.slideshow-container {
+		left: 148px;
+		position: relative;
+		width: 1283px;
+		margin-top: 42px;
+	}
+	
+	.cars {
+		display: block;
+		left: 147px;
+		width: 884px;
+		position: relative;
+	}
+	
+	.cars__foto {
+		width: 100%;
+		left: 5px;
+		position: relative;
+		margin-bottom: 40px;
+	}
+	
+	.cars__price {
+		position: relative;
+		left: 13px;
+	}
+	
+} 
+		
+	
